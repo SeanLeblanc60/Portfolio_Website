@@ -29,6 +29,7 @@ img {
 
 .page-color {
   background-image: linear-gradient(#380019, #850932);
+  color: white;
 }
 
 .ash-header-logo {
@@ -64,32 +65,6 @@ img {
   margin-right: auto;
 }
 
-
-.button {
-  border-radius: 50px;
-  color: white;
-  background-color: blue;
-  border: 0;
-  font-size: 18px;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: darkblue;
-}
-
-.button:focus {
-  outline: 3px solid darkblue;
-}
-
-.qj-demo-row {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  padding: 20px;
-}
-
 .jade-section-background {
   display: flex;
   align-items: center;
@@ -104,4 +79,22 @@ img {
 
 .jade-section-image {
   width: 50%;
+}
+
+.button {
+  border-radius: 50px;
+  color: black;
+  background-color: lightgrey;
+  border: 0;
+  font-size: 18px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+.button:focus {
+  outline: 3px solid grey;
 }
