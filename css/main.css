@@ -25,6 +25,8 @@ img {
   background-color: #380019;
   background-image: radial-gradient(#850932, #380019);
   color: white;
+  gap: 20px;
+  padding: 20px;
 }
 
 .page-color {
