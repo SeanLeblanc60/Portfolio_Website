@@ -10,13 +10,13 @@ img {
   height: auto;
 }
 
-.nik-demo-row {
+.content-row {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
 
-.ash-header {
+.main-header {
   position: sticky;
   top: 0;
   display: flex;
@@ -34,41 +34,12 @@ img {
   color: white;
 }
 
-.ash-header-logo {
-  max-width: 200px;
+.header-logo {
+  max-width: 100px;
+  max-height: 100px;
 }
 
-.ash-header-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.dani-demo-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.dani-demo-logo {
-  max-width: 125px;
-}
-
-.dani-demo-nav a {
-  padding: 8px;
-}
-
-.dani-demo-nav a:not(:last-child) {
-  border-right: 1px solid red;
-}
-
-.joseph-image-demo {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.jade-section-background {
+.section-background {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -76,28 +47,56 @@ img {
   padding-right: 60px;
 }
 
-.jade-section-description {
+.section-description {
  width: 50%;
 }
 
-.jade-section-image {
+.section-image {
   width: 50%;
 }
 
 .button {
   border-radius: 50px;
-  color: black;
-  background-color: lightgrey;
   border: 0;
   font-size: 18px;
+  color: white;
   padding: 8px 16px;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: grey;
+  color: rgb(187, 187, 187);
 }
 
 .button:focus {
-  outline: 3px solid grey;
+  color: black;
+}
+
+.button-about {
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 18px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.self-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
